@@ -153,22 +153,22 @@
                 userScoreSpan.innerHTML = userScore;
                 break;
             case "sp":
-                msg.innerHTML = `${convertToString(usrChoice)} beats ${convertToString(compChoice)} - User WIN`;
+                msg.innerHTML = `${convertToString(usrChoice)} beat ${convertToString(compChoice)} - User WIN`;
                 userScore++;
                 userScoreSpan.innerHTML = userScore;
                 break;
             case "rp":
-                msg.innerHTML = convertToString(compChoice) + " " + "beats" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
+                msg.innerHTML = convertToString(compChoice) + " " + "beat" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
                 compScore++;
                 compScoreSpan.innerHTML = compScore;
                 break;
             case "ps":
-                msg.innerHTML = convertToString(compChoice) + " " + "beats" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
+                msg.innerHTML = convertToString(compChoice) + " " + "beat" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
                 compScore++;
                 compScoreSpan.innerHTML = compScore;
                 break;
             case "sr":
-                msg.innerHTML = convertToString(compChoice) + " " + "beats" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
+                msg.innerHTML = convertToString(compChoice) + " " + "beat" + " " + convertToString(usrChoice) + " " + "- Comp WIN";
                 compScore++;
                 compScoreSpan.innerHTML = compScore;
                 break;
@@ -181,17 +181,17 @@
 
     }
 
-    function rockSelected() {
+    function selectRock() {
 
         scoreDisplay("r");
 
     }
 
-    function paperSelected() {
+    function selectPaper() {
         scoreDisplay("p");
     }
 
-    function scissorsSelected() {
+    function selectScissors() {
         scoreDisplay("s");
     }
 
