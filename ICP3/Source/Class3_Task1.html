@@ -148,12 +148,12 @@
                 userScoreSpan.innerHTML = userScore;
                 break;
             case "pr":
-                msg.innerHTML = convertToString(usrChoice) + " " + "beats" + " " + convertToString(compChoice) + "" + "- User WIN";
+                msg.innerHTML = `${convertToString(usrChoice)} beats ${convertToString(compChoice)} - User WIN `;
                 userScore++;
                 userScoreSpan.innerHTML = userScore;
                 break;
             case "sp":
-                msg.innerHTML = convertToString(usrChoice) + " " + "beats" + " " + convertToString(compChoice) + " " + "- User WIN";
+                msg.innerHTML = `${convertToString(usrChoice)} beats ${convertToString(compChoice)} - User WIN`;
                 userScore++;
                 userScoreSpan.innerHTML = userScore;
                 break;
