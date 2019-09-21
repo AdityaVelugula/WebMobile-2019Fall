@@ -1,0 +1,84 @@
+.base {
+  background: darkslategray;
+  height: 200vh;
+  margin-top: 5vh;
+  border: 3px solid black;
+}
+
+.calcMain{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 50px;
+
+}
+
+.maindisplay {
+  background: lightgrey;
+  height: calcMain(100%/10);
+  width: 90%;
+  padding: 5% !important;
+  font-size: 4rem;
+  text-align: right;
+  font-family: Courier, monospace;
+  overflow: auto;
+}
+
+.subdisplay {
+  border-bottom: 1px solid black;
+  height: 25%;
+  font-size: 2rem;
+  overflow: auto;
+}
+
+.keypad {
+  height: calc(200% / 3);
+}
+
+
+
+
+.keys {
+
+  border: 2px solid black;
+  width: 100px;
+  height: 20%;
+  background: whitesmoke;
+  color: black;
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.one-line {
+  display: inline-block;
+}
+
+.zerokey {
+  width: 50%;
+}
+
+.ackey {
+  width: 270px;
+  color: red;
+  background: black;
+}
+
+.equalkey {
+  color: white;
+  background-color: orangered;
+}
+
+.numkey {
+  color: skyblue;
+  width: 60px;
+  background-color: black;
+}
+
+.opkey {
+  color: white;
+  width: 60px;
+  background-color: black;
+}
